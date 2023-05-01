@@ -5,7 +5,7 @@ aidl_interface {
     vendor_available: true,
     srcs: ["vendor/lineage/powershare/*.aidl"],
     stability: "vintf",
-    owner: "statix",
+    owner: "zephyrus",
     backend: {
         cpp: {
             // prefer NDK backend which can be used anywhere
